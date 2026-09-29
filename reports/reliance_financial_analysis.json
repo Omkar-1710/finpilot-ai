@@ -1,0 +1,30 @@
+{
+    "asset": "RELIANCE.NS",
+    "analysis_period": {
+        "start": "2020-10-19",
+        "end": "2025-12-31"
+    },
+    "performance": {
+        "starting_price": 982.22,
+        "ending_price": 1563.17,
+        "total_return": 59.15,
+        "cagr": 9.35
+    },
+    "risk": {
+        "annualized_volatility": 23.14,
+        "maximum_drawdown": -27.18,
+        "sharpe_ratio": 0.249
+    },
+    "technical_indicators": {
+        "latest_ma_50": 1518.51,
+        "latest_ma_200": 1412.39
+    },
+    "insights": [
+        "The asset recorded an overall positive price return of 59.15% during the analyzed period.",
+        "Annualized price volatility was 23.14%, indicating moderate historical price variation.",
+        "The largest peak-to-trough decline observed in the analyzed period was -27.18%.",
+        "The latest closing price is above the 50-day moving average.",
+        "The 50-day moving average is currently above the 200-day moving average.",
+        "The calculated Sharpe ratio for the selected assumptions was 0.249."
+    ]
+}

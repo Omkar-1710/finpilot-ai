@@ -1,0 +1,94 @@
+{
+    "company": "Reliance Industries",
+    "ticker": "RELIANCE.NS",
+    "financial_analysis": {
+        "asset": "RELIANCE.NS",
+        "analysis_period": {
+            "start": "2020-10-19",
+            "end": "2025-12-31"
+        },
+        "performance": {
+            "starting_price": 982.22,
+            "ending_price": 1563.17,
+            "total_return": 59.15,
+            "cagr": 9.35
+        },
+        "risk": {
+            "annualized_volatility": 23.14,
+            "maximum_drawdown": -27.18,
+            "sharpe_ratio": 0.249
+        },
+        "technical_indicators": {
+            "latest_ma_50": 1518.51,
+            "latest_ma_200": 1412.39
+        },
+        "insights": [
+            "The asset recorded an overall positive price return of 59.15% during the analyzed period.",
+            "Annualized price volatility was 23.14%, indicating moderate historical price variation.",
+            "The largest peak-to-trough decline observed in the analyzed period was -27.18%.",
+            "The latest closing price is above the 50-day moving average.",
+            "The 50-day moving average is currently above the 200-day moving average.",
+            "The calculated Sharpe ratio for the selected assumptions was 0.249."
+        ]
+    },
+    "latest_market_data": {
+        "date": "2025-12-31",
+        "close": 1563.172607421875,
+        "daily_return": 0.0198727491615953,
+        "volatility_30": 0.0084504296835504,
+        "ma_7": 1552.7208600725446,
+        "ma_30": 1542.8962849934896,
+        "ma_50": 1518.5110302734374,
+        "ma_200": 1412.3858068847655
+    },
+    "forecast": {
+        "latest_prediction": null
+    },
+    "model_information": {
+        "model": "XGBoost",
+        "task": "Next-day closing price forecasting",
+        "evaluation_method": "Chronological train/test split + TimeSeriesSplit"
+    },
+    "top_features": [
+        {
+            "Feature": "Close",
+            "Importance": 0.748154
+        },
+        {
+            "Feature": "High",
+            "Importance": 0.14852425
+        },
+        {
+            "Feature": "MA_7",
+            "Importance": 0.05999403
+        },
+        {
+            "Feature": "Low",
+            "Importance": 0.025985703
+        },
+        {
+            "Feature": "Open",
+            "Importance": 0.011298885
+        },
+        {
+            "Feature": "MA_30",
+            "Importance": 0.0010751334
+        },
+        {
+            "Feature": "MA_200",
+            "Importance": 0.0010317073
+        },
+        {
+            "Feature": "Volatility_30",
+            "Importance": 0.0010178394
+        },
+        {
+            "Feature": "MA_50",
+            "Importance": 0.00083441846
+        },
+        {
+            "Feature": "Daily_Return",
+            "Importance": 0.00079454714
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+Asset,Latest Price,Predicted Next Close,Model,Validation Method
+RELIANCE.NS,1563.17,1506.62,XGBoost,TimeSeriesSplit
